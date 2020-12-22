@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/dialog_text_name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="Batafsil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/dialog_text_desc"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:text="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn_activ"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_back_info"
+            android:text="Aktivlashtirish"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

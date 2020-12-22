@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+           android:id="@+id/nav_telegram"
+           android:title="Telegram kanal"
+           android:icon="@drawable/ic_baseline_near_me_24"/>
+
+        <item
+            android:id="@+id/nav_call_me"
+            android:title="Biz bilan aloqa"
+            android:icon="@drawable/ic_baseline_contacts_24"/>
+
+        <item
+            android:id="@+id/nav_share"
+            android:title="Ulashish"
+            android:icon="@drawable/ic_outline_navigation_share_24"/>
+
+        <item
+            android:id="@+id/nav_like"
+            android:title="Baholash"
+            android:icon="@drawable/ic_baseline_stars_24"/>
+
+        <item
+            android:id="@+id/nav_this_info"
+            android:title="Biz haqimizda"
+            android:icon="@drawable/ic_baseline_info_24"/>
+
+    </group>
+</menu>
